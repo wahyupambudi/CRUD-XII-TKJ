@@ -13,11 +13,12 @@
 			}
 			button {
 				padding: 10px;
-				background: #2F97E0;
+				background: #F0882C;
 				color: #FFFFFF;
 				cursor: pointer;
 				border: 0px;
 				border-radius: 10px;
+				width: 200px;
 			}
 			td {
 				padding: 10px;
@@ -27,9 +28,11 @@
 			}
 		</style>
 	</head>
-	<body>
+	<body >
 		<div align="center">
-			<h1>Form Registrasi</h1>
+			<fieldset style="border: 5px solid #E66969;">
+				<legend style="font-size: 20px; color:#E66969 ;">FORM REGISTRASI</legend>
+				<!-- <h1>Form Registrasi</h1> -->
 			<a href="data-registrasi.php"><button>Lihat Data Registrasi</button></a>
 			<?php
 				// membuat function input
@@ -115,6 +118,7 @@
 				<br><br>
 				<button type="submit" name="tambah_data">Kirim Data</button>
 			</form>
+			</fieldset>
 		</div>
 	</body>
 </html>
